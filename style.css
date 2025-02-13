@@ -1,11 +1,10 @@
-:root{
+:root {
   --light-pink: #e68a8a;
   --dark-red: #b32d2d;
   --pink: #f3bcbc;
   --hover-pink: #f09d9d;
   --deep-red: #4a1c1c;
 }
-
 
 *,
 *::before,
@@ -15,9 +14,10 @@
 
 body {
   margin: 0;
-  font-family: "Dancing Script", serif;
-  font-weight: 700;
-  font-size: 2.7rem;
+  font-family: "Roboto", serif;
+  color: #7c1c1c;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 img {
@@ -28,6 +28,11 @@ img {
 
 h1 {
   font-weight: 700;
+}
+
+.small-text {
+  font-size: 0.5rem;
+  font-weight: 400;
 }
 
 .main {
@@ -54,7 +59,6 @@ h1 {
 }
 
 button {
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   cursor: pointer;
@@ -108,9 +112,9 @@ button {
 }
 
 /* active */
-.btn:active{
+.btn:active {
   background: var(--pink);
-	transform: translate(0em, 0.4em);
+  transform: translate(0em, 0.4em);
 }
 
 .btn:active::before {
@@ -174,3 +178,18 @@ button {
 }
 
 /**************************************/
+@media only screen and (max-width: 800px) {
+  img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .button-container{
+    width: 70%;
+  }
+
+}

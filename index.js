@@ -1,6 +1,7 @@
 const buttonNo = document.querySelector(".btn-no");
 const buttonYes = document.querySelector(".btn-yes");
 const text = document.querySelector(".text");
+const smallText = document.querySelector(".small-text");
 let initialNoPosX = 0;
 let initialNoPosY = 0;
 let clickCount = 0;
@@ -47,7 +48,8 @@ function clickYes() {
   gif.src = "assets/snoopy-woodstock (1).gif";
   buttonNo.style.display = "none";
   buttonYes.style.display = "none";
-  text.innerHTML = "Yay!";
+  text.innerHTML = "Yay!"
+  smallText.innerHTML = "now take your clothes off";
 }
 
 function clickNo() {
