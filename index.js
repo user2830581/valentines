@@ -49,7 +49,7 @@ function clickYes() {
   buttonNo.style.display = "none";
   buttonYes.style.display = "none";
   text.innerHTML = "Yay!"
-  smallText.innerHTML = "now take your clothes off";
+  smallText.innerHTML = "now take your clothes off and send me spicy pic";
 }
 
 function clickNo() {
